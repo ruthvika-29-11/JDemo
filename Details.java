@@ -8,7 +8,7 @@ public static void main(String[] args)
     String id = sc.next();
     String name = sc.next();
     String Cl = sc.next();
-System.out.println("ID: "+id+" Name"+name+" Class"+cl);
+System.out.println("ID: "+id+" Name"+name+" Class"+Cl);
  
 }
 }
