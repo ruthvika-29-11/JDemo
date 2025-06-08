@@ -1,0 +1,26 @@
+<html>
+<head>
+<script>
+	function validate()
+	{
+		var email = document.f1.t1.value;
+		var pwd = document.f1.t2.value;
+		if( email == "mvsr" && pwd == "mvsr")
+		{ 
+		alert("Success");		
+}
+else{
+alert("Fail");
+}
+}
+</script>
+</head>
+
+<body>
+<form name="f1" >
+Enter email:<input type="text" name="t1"><br>
+Enter pwd:<input type="text" name="t2"><br>
+<input type="button" value="Login" onclick = validate()>
+</form>
+</body>
+</html>
